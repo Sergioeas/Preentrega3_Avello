@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario de Bodega</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Inventario de bodega</h1>
+    </header>
+    <main>
+        <article class="art_usario">
+            <form id="formUsuario">
+                <input type="text" id="ingresarUsuario" placeholder="Ingrese Nombre y apellido">
+                <button type="submit">Guardar Usuario</button>
+            </form>
+            <p class="usuario"></p>
+        </article>
+        <article class="art_dispo">
+            <h3>Disponibilidad de inventario</h3>
+            <p class="disponibilidad"></p>
+            <p class="disponibilidad2"></p>
+        </article>
+        <article class="art_ingreso">
+            <h3>Ingreso</h3>
+            <form id="formIngreso">
+                <input type="text" id="ingresoColchon" placeholder="ingreso de colchones">
+                <br><br>
+                <input type="text" id="ingresoAlmohada" placeholder="ingreso de almohadas">
+                <button type="submit">Agregar Productos</button>
+            </form>
+        </article>
+        <article class="art_retiro">
+            <h3>Retiro</h3>
+            <form id="formRetiro">
+                <input type="text" id="retiroColchon" placeholder="retiro de colchones">
+                <br><br>
+                <input type="text" id="retiroAlmohada" placeholder="retiro de almohadas">
+                <button type="submit">Retirar Productos</button>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>Pagina con fines pedagógicos</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
