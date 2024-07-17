@@ -1,0 +1,18 @@
+[
+    {
+        "codigo": "0001",
+        "nombre": "Almohada",
+        "marca": "Rozen",
+        "modelo": "standard",
+        "cantidad": 35,
+        "descripcion": "Almohada de plumas"
+    },
+    {
+        "codigo": "0002",
+        "nombre": "Colchon",
+        "marca": "rozen",
+        "modelo": "BiPlz/Opdic",
+        "cantidad": 35,
+        "descripcion": "Colchon ortopedico de 2 plazas"
+    }
+]

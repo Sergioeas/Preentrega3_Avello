@@ -1,4 +1,5 @@
 * {
+    color: white;
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
@@ -16,12 +17,23 @@ header {
 }
 
 main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("bodega2.webp");
+    background-size: cover;
     width: auto;
-    height: 400px;
+    height: 600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+}
+
+input {
+    color: black;
+}
+
+button {
+    color: black;
 }
 
 footer {
